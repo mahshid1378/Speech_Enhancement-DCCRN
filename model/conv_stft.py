@@ -120,3 +120,5 @@ if __name__ == "__main__":
     a = ConvSTFT(400 ,100 ,512,'hanning', 'complex')
     b= torch.randn(1, 1, 165000)
     a(b)
+
+    
